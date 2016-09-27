@@ -52,12 +52,12 @@ class BisounoursTable extends Table
             ->notEmpty('name');
 
         $validator
-            ->requirePresence('color', 'create')
-            ->notEmpty('color');
+            ->requirePresence('description', 'create')
+            ->notEmpty('description');
 
         $validator
-            ->requirePresence('signe_distinctif', 'create')
-            ->notEmpty('signe_distinctif');
+            ->requirePresence('image', 'create')
+            ->notEmpty('image');
 
         return $validator;
     }

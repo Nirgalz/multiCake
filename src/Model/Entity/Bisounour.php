@@ -8,8 +8,8 @@ use Cake\ORM\Entity;
  *
  * @property int $id
  * @property string $name
- * @property string $color
- * @property string $signe_distinctif
+ * @property string $description
+ * @property string $image
  */
 class Bisounour extends Entity
 {

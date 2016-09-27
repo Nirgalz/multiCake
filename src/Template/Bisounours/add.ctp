@@ -10,8 +10,8 @@
         <legend><?= __('Add Bisounour') ?></legend>
         <?php
             echo $this->Form->input('name');
-            echo $this->Form->input('color');
-            echo $this->Form->input('signe_distinctif');
+            echo $this->Form->input('description');
+            echo $this->Form->input('image');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

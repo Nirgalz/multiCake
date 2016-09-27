@@ -1,19 +1,19 @@
 CREATE TABLE bisounours (
   id INT NOT NULL AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL ,
-  color VARCHAR(255) NOT NULL ,
-  signe_distinctif VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL ,
   PRIMARY KEY (id)
 )
 
-INSERT INTO bisounours (name, color, signe_distinctif)
-VALUES ('Grognon', 'bleu', 'un nuage avec de la pluie et un éclair'),
-('Grosbisou', 'rouge foncé', 'un coeur'),
-('Groschéri', 'rose vif', 'deux coeurs'),
-('Groscopain', 'orange clair', 'deux fleurs'),
-('Grosdodo', 'bleu clair', 'une lune et une étoile'),
-('Grosfarceur', 'rose pâle', 'un arc-en-ciel'),
-('Grosgâteau', 'jaune pâle', 'un gros gâteau'),
-('Grojojo', 'jaune citron', 'un soleil'),
-('Grostaquin', 'bleu-vert pastel', 'une étoile filante jaune orangé'),
-('Grosveinard', 'verte', 'un trèfle');
+INSERT INTO bisounours (name, description, image)
+VALUES ('Toucâlin', 'Toucâlin l’optimiste prend toujours les choses du bon côté ! Sa bonne humeur permet souvent d’encourager les autres ou de résoudre les problèmes. Elle a toujours le sourire et répand le bonheur autour d’elle grâce à son bidousigne.', 'toucalin.png'),
+  ('Tougentille', 'Tougentille a un don pour le partage ! Cette ourse protectrice et généreuse est amie avec tout le monde. Insouciante et affectueuse, elle adore faire des cadeaux… ou des gâteaux ! Elle accorde tellement d’importance au partage que son bidousigne représente deux sucettes en forme de cœurs !', 'tougentille.png'),
+  ('Toutaquin', 'Pour Toutaquin, s’amuser est une priorité ! Ce qu’il préfère, c’est être avec ses amis ou vivre des aventures, pendant lesquelles il se fait encore plus d’amis ! Intrépide et optimiste, il profite au maximum de ses journées. Son bidousigne, un soleil jaune éclatant et souriant, reflète bien cet état d’esprit !', 'toutaquin.png'),
+  ('Touronchon', 'Sous ses airs bourrus, Touronchon est un Bisounours au grand cœur  ! Il est doué pour comprendre les enfants et leur rappeler que leurs proches les aiment même quand ils sont grognons. C’est pourquoi son bidousigne représente un nuage et des gouttes de pluie en forme de cœurs.', 'touronchon.png'),
+  ('Toubisou', 'Toubisou est le plus âgé et le plus sage des Bisounours, et il a toujours de bonnes intentions. Il sait comprendre et conseiller les enfants pour les aider à partager leurs émotions. Son bidousigne, un gros cœur rouge, est parfaitement adapté à sa mission !', 'toubisou.png'),
+  ('Harmonie', 'Harmonie est une artiste talentueuse, qui réunit tous les Bisounours et les encourage à faire de leur mieux, notamment grâce à la musique. Elle croit que les différences sont essentielles pour créer l’harmonie dans le monde. C’est pourquoi la fleur représentée sur son bidousigne a des pétales de couleurs différentes.', 'harmonie.png'),
+  ('Toucurieux', 'Rigolote, tendre et joyeuse, Toucurieux est la nièce de Toubisou. Elle veut toujours prendre part aux aventures des « grands », s’intéresse à tout et pose sans arrêt des questions sur tout ! Son bidousigne représente un petit cœur, mais elle est encore trop petite pour savoir quels sont ses pouvoirs.', 'toucurieux.png'),
+  ('Toubrave le lion', 'Toubrave le lion est le chef des Cousinours. Protecteur et sans peur du danger, il a beaucoup d’humour et un cœur en or, sans parler du plus joli sourire !', 'toubrave.png'),
+  ('Coeur Brillant', 'Que serait l’équipe des Cousinours sans Coeur Brillant ? Il est celui qui les rassemble ! Il adore les sciences et c’est vraiment son truc. Son intelligence est si grande qu’il n’hésite pas à reformuler les choses afin que tout le monde puisse comprendre.', 'coeur.png'),
+  ('Lottie Jolie Coeur', 'Lottie Jolie Coeur est certainement, parmi les Cousinours, celle qui montre le plus de compassion et de bienveillance. Gentille et adorable, elle est toujours à l’écoute des problèmes des autres, comme si elle avait le pouvoir de ressentir leurs propres émotions.', 'lottie.png'),
+  ('Coeur Fondant', 'Vous voulez savoir qui est la plus mignonne, la plus adorable et la plus chou des Cousinours ? C’est Coeur Fondant, bien sûr ! Une évidence pour ceux qui la connaissent déjà. Bien qu’elle soit la plus jeune de l’équipe, elle a la faculté incroyable qu’à ses côtés, les gens se sentent merveilleusement bien !', 'coeurfondant.png')

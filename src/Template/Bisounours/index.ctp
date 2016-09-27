@@ -11,8 +11,7 @@
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('name') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('color') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('signe_distinctif') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('image') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -21,8 +20,7 @@
             <tr>
                 <td><?= $this->Number->format($bisounour->id) ?></td>
                 <td><?= h($bisounour->name) ?></td>
-                <td><?= h($bisounour->color) ?></td>
-                <td><?= h($bisounour->signe_distinctif) ?></td>
+                <td><?= h($bisounour->image) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $bisounour->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $bisounour->id]) ?>

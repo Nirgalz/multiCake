@@ -15,16 +15,16 @@
             <td><?= h($bisounour->name) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Color') ?></th>
-            <td><?= h($bisounour->color) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Signe Distinctif') ?></th>
-            <td><?= h($bisounour->signe_distinctif) ?></td>
+            <th scope="row"><?= __('Image') ?></th>
+            <td><?= h($bisounour->image) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Id') ?></th>
             <td><?= $this->Number->format($bisounour->id) ?></td>
         </tr>
     </table>
+    <div class="row">
+        <h4><?= __('Description') ?></h4>
+        <?= $this->Text->autoParagraph(h($bisounour->description)); ?>
+    </div>
 </div>
